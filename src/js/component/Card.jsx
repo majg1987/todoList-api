@@ -33,7 +33,7 @@ const Card = ({ listaTareas, setListaTareas, update }) => {
 										{element.label}
 										<button
 											onClick={() => eliminar(element)}
-											className="bg-danger rounded-circle text-white border-0">
+											className=" boton bg-danger rounded-circle text-white border-0">
 											<i className="far fa-trash-alt"></i>
 										</button>
 									</li>
